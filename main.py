@@ -8,6 +8,7 @@ app = FastAPI(title="Patient API")
 def read_root():
     return {"message": "Welcome to the Patient API"}
 
+
 # Dependency
 # def get_db():
 #     db = SessionLocal()
